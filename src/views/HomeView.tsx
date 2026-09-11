@@ -14,7 +14,6 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { PROJECT_METADATA } from '../data/projectData';
-import { MetricCard } from '../components/MetricCard';
 import { Callout } from '../components/Callout';
 import { StatusBadge } from '../components/StatusBadge';
 import { SystemArchitectureDiagram } from '../components/Diagrams';
@@ -309,44 +308,6 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               Tested on Python 3.12. All data inspection, cleaning, TF-IDF training, FAISS indexing, and 43 unit tests run completely offline.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* Key Local Corpus Metrics */}
-      <section className="space-y-4">
-        <h2 className="text-xl font-bold text-black tracking-tight">
-          Empirical AmazonHelp Corpus Metrics
-        </h2>
-
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <MetricCard
-            label="Selected Brand"
-            value="AmazonHelp"
-            subtext="Highest volume & direct response rate in raw 2.8M tweet corpus"
-            badge="Empirical"
-            badgeType="info"
-          />
-          <MetricCard
-            label="Conversations"
-            value="82,556"
-            subtext="Reconstructed via in_response_to_tweet_id thread pointers"
-            badge="Isolated"
-            badgeType="default"
-          />
-          <MetricCard
-            label="Customer Inquiries"
-            value="203,830"
-            subtext="Raw customer support messages mapped to thread IDs"
-            badge="Verified"
-            badgeType="success"
-          />
-          <MetricCard
-            label="Direct Response Rate"
-            value="76.0%"
-            subtext="168,814 direct customer-to-company response pairs"
-            badge="High Quality"
-            badgeType="success"
-          />
         </div>
       </section>
     </div>
