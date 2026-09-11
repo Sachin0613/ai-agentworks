@@ -1,0 +1,6 @@
+{
+  "name": "AI Customer Support Agent Docs",
+  "description": "Comprehensive developer and architecture documentation portal for the Hiver AI Customer Support Agent take-home project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
