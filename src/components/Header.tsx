@@ -118,15 +118,14 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* GitHub / Repo button */}
           <a
-            href="#reproducibility"
-            onClick={(e) => {
-              e.preventDefault();
-              onNavigate('/docs/developer/reproducibility');
-            }}
+            href="https://github.com/Sachin0613/Hiver-ai-customer-agent.git"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900 transition-all shadow-2xs cursor-pointer shrink-0"
+            title="View Hiver AI Support Agent on GitHub"
           >
-            <Github className="h-3.5 w-3.5" />
-            <span className="hidden sm:inline">Specs</span>
+            <Github className="h-3.5 w-3.5 text-slate-700" />
+            <span className="hidden sm:inline">GitHub</span>
           </a>
         </div>
       </div>

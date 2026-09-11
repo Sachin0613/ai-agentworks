@@ -64,7 +64,7 @@ export const GettingStartedView: React.FC<GettingStartedViewProps> = ({ onNaviga
             Clone the repository from GitHub and navigate into the project root directory:
           </p>
           <CodeBlock
-            code={`git clone https://github.com/your-org/hiver-ai-support-agent.git\ncd hiver-ai-support-agent`}
+            code={`git clone https://github.com/Sachin0613/Hiver-ai-customer-agent.git\ncd Hiver-ai-customer-agent`}
             language="bash"
           />
         </section>

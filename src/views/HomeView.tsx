@@ -31,7 +31,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
       <section className="pt-2 pb-6 border-b border-slate-200">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200 mb-4">
           <span className="h-2 w-2 rounded-full bg-blue-600 animate-ping" />
-          <span>Hiver SDE Intern Take-Home Project Documentation</span>
+          <span>Hiver AI Support Agent Documentation</span>
         </div>
 
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">

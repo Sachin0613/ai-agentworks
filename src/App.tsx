@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
+import { Footer } from './components/Footer';
 import { SearchModal } from './components/SearchModal';
 
 // Views
@@ -205,8 +206,11 @@ export const App: React.FC = () => {
         />
 
         {/* Content Area */}
-        <main className="flex-1 min-w-0 px-4 sm:px-6 lg:px-10 py-8 lg:py-10">
-          {renderCurrentView()}
+        <main className="flex-1 min-w-0 px-4 sm:px-6 lg:px-10 py-8 lg:py-10 flex flex-col justify-between">
+          <div className="flex-1">
+            {renderCurrentView()}
+          </div>
+          <Footer onNavigate={navigateTo} />
         </main>
       </div>
 

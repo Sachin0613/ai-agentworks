@@ -134,8 +134,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
       </div>
 
       <div className="pt-4 mt-4 border-t border-slate-200 text-[11px] text-slate-500">
-        <p className="font-semibold text-slate-700">Hiver SDE Intern Assignment</p>
-        <p className="mt-0.5 font-mono text-[10px]">Python 3.12 | FAISS | React</p>
+        <a
+          href="https://github.com/Sachin0613/Hiver-ai-customer-agent.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-slate-800 hover:text-blue-600 transition-colors flex items-center justify-between group"
+          title="Open repository on GitHub"
+        >
+          <span>Hiver AI Support Agent</span>
+          <span className="text-slate-400 group-hover:text-blue-600 font-mono text-[10px]">↗</span>
+        </a>
+        <p className="mt-0.5 font-mono text-[10px] text-slate-400">Python 3.12 | FAISS | React</p>
       </div>
     </div>
   );
